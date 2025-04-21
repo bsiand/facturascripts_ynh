@@ -1,7 +1,7 @@
 packaging_format = 2
 
-id = "my_webapp"
-name = "My Webapp"
+id = "facturascripts"
+name = "FacturaScripts"
 description.en = "Custom Web app with SFTP access to serve static (HTML, CSS, JS) and PHP files"
 description.fr = "Application Web personnalisée avec accès SFTP pour servir des fichiers statiques (HTML, CSS, JS) et PHP"
 
@@ -51,20 +51,20 @@ ram.runtime = "50M"
     ask.fr = "Choisissez une version PHP que vous souhaitez utiliser pour votre application"
     type = "select"
     choices = ["none", "7.4", "8.0", "8.1", "8.2", "8.3", "8.4"]
-    default = "8.4"
+    default = "8.3"
 
     [install.database]
     ask.en = "Do you need a database?"
     ask.fr = "Avez-vous besoin d'une base de données ?"
     type = "select"
     choices = [ "none", "mysql", "postgresql" ]
-    default = "none"
+    default = "mysql"
 
     [install.custom_error_file]
     ask.en = "Activate the custom error file use"
     ask.fr = "Activer l'utilisation du fichier d'erreur personnalisé"
     type = "boolean"
-    default = false
+    default = true
     help = "Once custom error enabled, you can add/create a custom `404.html` file in a directory `www/error`."
 
 [resources]
