@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "facturascripts"
 name = "FacturaScripts"
-description.en = "Custom Web app with SFTP access to serve static (HTML, CSS, JS) and PHP files"
-description.fr = "Application Web personnalisée avec accès SFTP pour servir des fichiers statiques (HTML, CSS, JS) et PHP"
+description.en = "Programa de contabilidad y facturación"
+description.fr = "Programa de contabilidad y facturación"
 
 version = "1.0~ynh20"
 
