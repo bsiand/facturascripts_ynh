@@ -44,7 +44,7 @@ ram.runtime = "50M"
 
     [install.init_main_permission]
     type = "group"
-    default = "visitors"
+    default = "all_users"
 
     [install.phpversion]
     ask.en = "Choose a PHP version you want to use for your app"
