@@ -16,9 +16,9 @@ license = "GPL-3.0-only"
 yunohost = ">= 11.2.4"
 architectures = "all"
 multi_instance = true
-ldap = "not_relevant"
-sso = "not_relevant"
-disk = "50M"
+ldap = true
+sso = true
+disk = "100M"
 ram.build = "50M"
 ram.runtime = "50M"
 
@@ -35,6 +35,9 @@ ram.runtime = "50M"
     ask.fr = "Avez-vous besoin d'un accès SFTP ?"
     type = "boolean"
     default = false
+
+    [install.admin]
+    type = "user"
 
     [install.password]
     type = "password"
