@@ -1,7 +1,7 @@
 version = "1.0"
 
 [main]
-name.en = "My Webapp configuration"
+name.en = "FacturaScripts configuration"
 name.fr = "Configuration de My Webapp"
 
     [main.sftp]
